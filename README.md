@@ -203,17 +203,7 @@ The Tableau story presents the project in a visual sequence:
 5. Model Accuracy
 6. Final Summary
 
-### Add your dashboard screenshot here
 
-Once you save a screenshot as:
-
-```text
-assets/tableau_dashboard.png
-```
-
-replace this comment with:
-
-```html
 <p align="center">
   <img src="assets/tableau_dashboard.png" alt="Tableau dashboard" width="90%">
 </p>
@@ -241,17 +231,7 @@ The app then:
 4. Generates a prediction
 5. Displays the predicted winner
 
-### Add your Streamlit screenshot here
 
-Save a screenshot as:
-
-```text
-assets/streamlit_app.png
-```
-
-and embed it using:
-
-```html
 <p align="center">
   <img src="assets/streamlit_app.png" alt="Streamlit prediction app" width="90%">
 </p>
@@ -332,44 +312,6 @@ Potential extensions include:
 - Retraining the model for new Dota 2 patches
 - Displaying richer prediction probabilities in the Streamlit app
 
----
-
-## Repository Structure
-
-```text
-Dota2-Match-Outcome-Prediction/
-│
-├── README.md
-├── requirements.txt
-│
-├── assets/
-│   ├── project_banner.png
-│   ├── project_workflow.png
-│   ├── model_accuracy.png
-│   ├── tableau_dashboard.png
-│   └── streamlit_app.png
-│
-├── notebooks/
-│   ├── data_cleaning.ipynb
-│   ├── modeling.ipynb
-│   └── hero_analysis.ipynb
-│
-├── data/
-│   ├── heroes_cleaned.csv
-│   ├── matches_cleaned.csv
-│   └── players_aggregated.csv
-│
-├── streamlit/
-│   ├── app.py
-│   ├── dota_model.pkl
-│   └── background.jpeg
-│
-├── tableau/
-│   └── Dota2_Dashboard.twbx
-│
-└── presentation/
-    └── Final project.pptx
-```
 
 ---
 
